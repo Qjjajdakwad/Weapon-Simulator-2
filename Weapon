@@ -1,0 +1,4 @@
+while game:GetService("RunService").RenderStepped:wait() do
+local Event = game:GetService("Workspace").TvellfYTv.sword.Handle.pr.RemoteEvent
+Event:FireServer()
+end
