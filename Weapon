@@ -1,4 +1,4 @@
 while game:GetService("RunService").RenderStepped:wait() do
-local Event = game:GetService("Players").LocalPlayer.sword.Handle.pr.RemoteEvent
+local Event = game:GetService("Players").LocalPlayer.Character.sword.Handle.pr.RemoteEvent
 Event:FireServer()
 end
